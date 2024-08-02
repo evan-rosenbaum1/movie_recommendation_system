@@ -70,7 +70,8 @@ Feature engineering is performed to create additional features that enhance the 
 Cosine similarity is used to find movies similar to a user's top-rated movies. This similarity measure helps in generating recommendations that align with the user's preferences.
 
 ## File Structure <a name="filestructure"></a>
-movierec-system/
+```
+movie_recommendation_system/
 ├── data/
 │   ├── links.csv
 │   ├── movies.csv
@@ -83,6 +84,6 @@ movierec-system/
 ├── src/
 │   ├── classes.py
 │   └── functions.py
-├── notebooks/
-│   └── Movie_Recommendation_System.ipynb
+├── movie_recommendation_system.ipynb
 ├── README.md
+```
